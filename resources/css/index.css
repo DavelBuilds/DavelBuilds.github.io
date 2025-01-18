@@ -1,14 +1,16 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
+    background: url("https://i.ibb.co/JB8v7xq/pexels-francesco-ungaro-998641.jpg");
+    text-align: center;
 }
 
 h1 {
     color: SeaGreen;
 }
 
-p,
-li {
+p, li {
     font-size:18px;
+    color: seagreen;
 }
 
 a {
@@ -16,20 +18,29 @@ a {
 }
 
 .topnav {
-    background-color: #333;
+    /*background-color: #333;*/
     overflow: hidden;
+    text-align: center;
 }
 
 .topnav a {
-    float: left;
-    color: #f2f2f2;
+    float: center;
+    color: seagreen;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
-
 .topnav a.active {
     background-color: #04AA6D;
     color: white;
+}
+.latest {
+    border-top: 2px solid seagreen;
+}
+.latest img {
+    border: 1px solid seagreen;
+}
+.blog_post {
+    border-top: 2px solid seagreen;
 }
