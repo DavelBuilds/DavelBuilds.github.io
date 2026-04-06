@@ -8,7 +8,7 @@ h1 {
     color: SeaGreen;
 }
 
-p, li {
+p, li, h3 {
     font-size:18px;
     color: seagreen;
 }
