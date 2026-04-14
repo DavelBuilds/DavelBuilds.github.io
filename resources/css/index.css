@@ -1,14 +1,17 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
-    background: url("https://i.ibb.co/JB8v7xq/pexels-francesco-ungaro-998641.jpg");
     text-align: center;
+}
+
+body {
+    background: url("https://i.ibb.co/JB8v7xq/pexels-francesco-ungaro-998641.jpg");
 }
 
 h1 {
     color: SeaGreen;
 }
 
-p, li, h3 {
+p, li, h3, span {
     font-size:18px;
     color: seagreen;
 }
@@ -17,6 +20,9 @@ a {
     text-decoration: none;
 }
 
+/*footer, p {
+    display: inline;
+}*/
 .topnav {
     /*background-color: #333;*/
     overflow: hidden;
@@ -43,4 +49,10 @@ a {
 }
 .blog_post {
     border-top: 2px solid seagreen;
+}
+.footer-contact {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
 }
