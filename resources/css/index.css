@@ -7,7 +7,13 @@ body {
     background: url("https://i.ibb.co/JB8v7xq/pexels-francesco-ungaro-998641.jpg");
 }
 
-h1 {
+main{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1, h2, h3, h4 {
     color: SeaGreen;
 }
 
@@ -55,4 +61,12 @@ a {
     align-items: center;
     gap: 8px;
     justify-content: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+a:link{
+    color:seagreen
 }
