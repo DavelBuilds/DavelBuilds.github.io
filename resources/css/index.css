@@ -26,6 +26,10 @@ a {
     text-decoration: none;
 }
 
+iframe {
+    border: none;
+}
+
 /*footer, p {
     display: inline;
 }*/
