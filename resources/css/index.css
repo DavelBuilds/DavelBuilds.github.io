@@ -1,6 +1,5 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
-    text-align: center;
 }
 
 body {
@@ -11,6 +10,11 @@ main{
     max-width: 800px;
     margin: auto;
     padding: 20px;
+    text-align: center;
+}
+
+header {
+    text-align: center;
 }
 
 h1, h2, h3, h4 {
@@ -26,24 +30,28 @@ a {
     text-decoration: none;
 }
 
+footer {
+    text-align: center;
+}
+
 iframe {
     border: none;
 }
 
-/*footer, p {
-    display: inline;
-}*/
+fieldset {
+    color: seagreen;
+    border-color: seagreen;
+}
+
 .topnav {
-    /*background-color: #333;*/
     overflow: hidden;
     text-align: center;
 }
 
 .topnav a {
-    float: center;
     color: seagreen;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 12px;
     text-decoration: none;
     font-size: 17px;
 }
