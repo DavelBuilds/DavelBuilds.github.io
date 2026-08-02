@@ -17,11 +17,7 @@ header {
     text-align: center;
 }
 
-h1, h2, h3, h4 {
-    color: SeaGreen;
-}
-
-p, li, h3, span {
+p, li, h1, h2, h3, h4, span {
     font-size:18px;
     color: seagreen;
 }
@@ -77,8 +73,4 @@ fieldset {
 
 li{
     list-style-type: none;
-}
-
-a:link{
-    color:seagreen
 }
