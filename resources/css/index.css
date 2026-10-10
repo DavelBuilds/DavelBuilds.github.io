@@ -17,8 +17,11 @@ header {
     text-align: center;
 }
 
-p, li, h1, h2, h3, h4, span {
+p, li, span, time {
     font-size:18px;
+    color: seagreen;
+}
+h1, h2, h3, h4 {
     color: seagreen;
 }
 
@@ -37,6 +40,9 @@ footer {
 
 iframe {
     border: none;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
 }
 
 fieldset {
@@ -60,15 +66,7 @@ fieldset {
     background-color: #04AA6D;
     color: white;
 }
-.latest {
-    border-top: 2px solid seagreen;
-}
-.latest img {
-    border: 1px solid seagreen;
-}
-.blog_post {
-    border-top: 2px solid seagreen;
-}
+
 .footer-contact {
     display: flex;
     align-items: center;
@@ -90,17 +88,18 @@ li{
 }
 
 .bar-fill {
-  height: 100%;
-  text-align: center;
+    height: 100%;
+    text-align: center;
 }
 
 #freecodecamp-bar {
-border: 4px solid seagreen;
+    border: 4px solid seagreen;
+    max-width: 100%;
 }
 
 #freecodecamp-fill {
     background-color: seagreen;
-    width: 30.2%;
+    width: 34.9%;
 }
 
 .bar-fill > span {
@@ -108,4 +107,36 @@ border: 4px solid seagreen;
   top: 15%;
   left: 115%;
   color: black;
+}
+
+.blog-container, .game-container{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+
+.blog-card, .game-card {
+  background-color: #000000;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-shadow: 0 5px 15px white;
+}
+
+.blog-card p, .game-card p {
+  text-align: left;
+}
+
+.game-card.golden-sun {
+  box-shadow: 0 5px 15px gold;
+}
+
+.game-card.runescape {
+  box-shadow: 0 5px 15px green;
+}
+
+.game-card.ffxi {
+  box-shadow: 0 5px 15px brown;
 }
